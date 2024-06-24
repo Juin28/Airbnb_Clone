@@ -149,6 +149,16 @@ section {
 .card--title {
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 0.8rem;
+    font-weight: 750;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card--host {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(99, 99, 99);
 }
 
 .card--stats {
