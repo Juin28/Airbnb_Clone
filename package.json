@@ -1,5 +1,5 @@
 {
-  "homepage": "https://juin.is-a.dev/Airbnb_Clone",
+  "homepage": "https://juin28.github.io/Airbnb_Clone",
   "name": "airbnb_clone",
   "private": true,
   "version": "0.0.0",
@@ -27,5 +27,10 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
     "vite": "^5.3.1"
+  },
+  "build": {
+    "urlLoader": {
+      "include": "/images/"
+    }
   }
 }
